@@ -1,11 +1,8 @@
-{% extends'main.html' %}
+{% extends 'main.html' %}
 
 {%block content%}
 
 <h2>Home Template</h2> 
-
-
-
 <div>
     <div>
         {% for room in rooms%}
@@ -15,4 +12,4 @@
         {% endfor %}
     </div>
 </div>
-{%endblock content%}
+{% endblock content %}
